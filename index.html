@@ -61,17 +61,41 @@
     </div>
 
     <div class="hero-art" aria-hidden="true">
-      <div class="phone-mock">
-        <div class="channel-tabs">
-          <span class="ch-tab active"><i class="dot sms"></i>SMS</span>
-          <span class="ch-tab"><i class="dot wa"></i>WhatsApp</span>
+      <div class="chat-window">
+        <div class="chat-header">
+          <div class="chat-contact">
+            <strong>Maria Alvarez</strong>
+            <span>+1 (555) 010-0100</span>
+          </div>
+          <span class="channel-chip">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M20 12a8 8 0 1 1-3.3-6.4L20 4l-1.4 3.3A8 8 0 0 1 20 12z"/></svg>
+            WhatsApp
+          </span>
         </div>
-        <div class="phone-screen">
-          <div class="chat-row chat-us">Hi Maria — quick reminder: parent night this Thursday at 6:30 in the gym.</div>
-          <div class="chat-row chat-them">Thanks! Can I bring my younger one?</div>
-          <div class="chat-row chat-us">Absolutely — we'll have a kids' table set up. See you there.</div>
-          <div class="chat-row chat-them">Perfect, see you Thursday.</div>
-          <div class="typing"><span></span><span></span><span></span></div>
+        <div class="chat-body">
+          <div class="msg msg-us">
+            <p>Hi Maria — quick reminder: parent night this Thursday at 6:30 in the gym.</p>
+            <span class="msg-meta">May 8, 4:33 PM <span class="check">✓✓</span></span>
+          </div>
+          <div class="msg msg-them">
+            <p>Thanks! Can I bring my younger one?</p>
+            <span class="msg-meta">May 8, 4:34 PM</span>
+          </div>
+          <div class="msg msg-us">
+            <p>Absolutely — we'll have a kids' table set up. See you there.</p>
+            <span class="msg-meta">May 8, 4:35 PM <span class="check">✓✓</span></span>
+          </div>
+        </div>
+        <div class="chat-composer">
+          <div class="composer-icons">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.4 11.05a8.5 8.5 0 1 1-2.04-3.41L21 6"/><path d="M21 3v4h-4"/></svg>
+          </div>
+          <div class="composer-input">Type a message…</div>
+          <button class="composer-send" type="button">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg>
+            SEND
+          </button>
         </div>
       </div>
       <div class="float-card card-stat">
